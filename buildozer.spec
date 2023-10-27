@@ -390,6 +390,7 @@ warn_on_root = 1
 
 # (str) Path to build output (i.e. .apk, .aab, .ipa) storage
 # bin_dir = ./bin
+android.prebuild_cmd = ~/.buildozer/android/platform/android-sdk/tools/bin/sdkmanager "build-tools;29.0.0"
 
 #    -----------------------------------------------------------------------------
 #    List as sections
